@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.hero  {
+    background-image: url("./img/hero-02.jpg");
+    background-size: cover;
+}
+
+.hero h1 {
+    padding: 20px;
+}
+
+.hero h2 {
+    padding: 20px;
+}
+
+.button {
+     display: flex;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: green;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+}
+.hero{
+ display: flex;
+ align-content: center;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .services h2 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .services article h3 {
+    text-align: center;
+  }
